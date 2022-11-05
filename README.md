@@ -10,6 +10,9 @@ The new code [WS_pdist2.m](https://github.com/laplcebeltrami/dynamicTDA/blob/mai
 
 
 
+
+
+
 (C) 2022 Moo K. Chung
 University of Wisconsin-Madison
 mkchung@wisc.edu
