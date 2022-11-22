@@ -1,13 +1,14 @@
 function [Wb Wd] = WS_decompose(W)
-%[Wb, Wd] = WS_decompose(W)
+%function [Wb, Wd] = WS_decompose(W)
 %    
 % Performs the birth-death decomposition of edge sets.
 %
 % INPUT
-% W : edge weight matrix. weighted adjacency martrix
+% W : Connectivity matrix, edge weight matrix or weighted adjacency martrix
+%     of size p x p
 %
 % OUTPUT
-% Wb : birth edge set     (p-1) x 3, where p is # of nodes, n is # of subjects
+% Wb : birth edge set     (p-1) x 3, where p is # of nodes
 % Wd : death edge set     (p-1)*(p-2)/2 x 3 
 %
 %
@@ -35,10 +36,10 @@ function [Wb Wd] = WS_decompose(W)
 % Update history
 %   2020 May 23 created. Modified from codes written by Song and Lee
 %   2021 Nov 28 additional documentation
+%   2022 Nov 22 conncomp_birth function is added
 
 
-%% Compute set of births and set of deaths
-
+% Compute set of births and set of deaths
 G1 = graph(W, 'upper', 'omitselfloops');
 
 % birth edge set
@@ -51,4 +52,34 @@ deathMtx1 = rmedge(G1, birthMtx1(:, 1), birthMtx1(:, 2)).Edges{:, :};
 deathMtx1 = sortrows(deathMtx1, 3, 'descend');
 
 Wd=deathMtx1;
+
+
+
+function birthMtx = conncomp_birth(adj)
+% Compute a set of increasing birth values for 0D barcode
+%
+% INPUT
+%   adj      : weighted adjacency matrix
+%
+% OUTPUT
+%   birthMtx : matrix whose 1st and 2nd columns are end nodes (no duplicates)
+%              and 3rd column is weight (in ascending order, i.e., 1st row is
+%              smallest)
+%
+% (C) 2020 Tananun Songdechakraiwut, Moo K. Chung
+%          University of Wisconsin-Madison
+%
+%  Contact mkchung@wisc.edu for support with the codes 
+%
+% Update history:
+%     2020 August 11 modified by Tananun from Lee's code
+%     2021 May 25    comment by Chung
+
+g = graph(-adj, 'upper', 'omitselfloops'); % minus weights to find max spanning tree
+gTree = minspantree(g); % find max spanning tree of -adj
+gTreeMtx = gTree.Edges{:, :}; % edge info.
+gTreeMtx(:, 3) = gTreeMtx(:, 3) * -1; % reverse back to positive weights
+birthMtx = sortrows(gTreeMtx, 3);
+
+
 
