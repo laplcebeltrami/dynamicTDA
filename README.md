@@ -1,4 +1,4 @@
-## Topological distance between betworks
+## Wasserstein distance between brain networks
 
 The package computes the Wassersteind distance between the groups of networks. The method is introduced in
 
