@@ -1,5 +1,5 @@
-function [beta0, beta1, biggest0, biggest1] = PH_betti3(C, thresholds)
-%function [beta0, beta1, biggest0, biggest1] = PH_betti3(C, thresholds)
+function [beta0, beta1, biggest0, biggest1] = PH_betti_v3(C, thresholds)
+%function [beta0, beta1, biggest0, biggest1] = PH_betti(C, thresholds)
 %
 % The function computes the 0-th (the number of connected components) and 1st Betti numbers 
 % (cycles) and the size of the largest cycle over the range of filtration 
