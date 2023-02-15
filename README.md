@@ -1,4 +1,4 @@
-## Wasserstein distance between brain networks. 
+## Wasserstein distance between brain networks 
 
 The method is introduced in
 
