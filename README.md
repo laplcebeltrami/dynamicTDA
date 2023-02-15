@@ -1,4 +1,6 @@
-## Wasserstein distance between brain networks. The method is introduced in
+## Wasserstein distance between brain networks. 
+
+The method is introduced in
 
 Moo K. Chung, Camille Garcia Ramos, Felipe Branco De Paiva, Jedidiah Mathis, Vivek Prabharakaren, Veena A. Nair, Elizabeth Meyerand, Bruce P. Hermann, Jeffery R. Binder, Aaron F. Struck, 2023 Unified Topological Inference for Brain Networks in Temporal Lobe Epilepsy Using the Wasserstein Distance, [arXiv:2302.06673](https://arxiv.org/abs/2302.06673).
 
