@@ -1,6 +1,6 @@
 ## Wasserstein distance between brain networks. The method is introduced in
 
-[1] Moo K. Chung, Camille Garcia Ramos, Felipe Branco De Paiva, Jedidiah Mathis, Vivek Prabharakaren, Veena A. Nair, Elizabeth Meyerand, Bruce P. Hermann, Jeffery R. Binder, Aaron F. Struck, 2023 Unified Topological Inference for Brain Networks in Temporal Lobe Epilepsy Using the Wasserstein Distance, [arXiv:2302.06673](https://arxiv.org/abs/2302.06673).
+Moo K. Chung, Camille Garcia Ramos, Felipe Branco De Paiva, Jedidiah Mathis, Vivek Prabharakaren, Veena A. Nair, Elizabeth Meyerand, Bruce P. Hermann, Jeffery R. Binder, Aaron F. Struck, 2023 Unified Topological Inference for Brain Networks in Temporal Lobe Epilepsy Using the Wasserstein Distance, [arXiv:2302.06673](https://arxiv.org/abs/2302.06673).
 
 Simply run script [SCRIPT.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SCRIPT.m). The new code [WS_pdist2.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/WS_pdist2.m) replaces pervious [WS_distancemat.m](https://pages.stat.wisc.edu/~mchung/dynamicTDA/matlab/WS_distancemat.m) that is extremly slow due to the use fo double-loops. The new code hould be thousand times faster for large-scale network comparisions. Run SCRIPT.m
 
