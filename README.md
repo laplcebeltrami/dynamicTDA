@@ -3,7 +3,7 @@
 The package computes the Wassersteind distance between the groups of networks, perform topological inference and topological clustering.  
 
 
-For topological clustering, run [SCRIPT_clustring.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SCRIPT_clustring.m). The method is explained in 
+### Topological clustering, run [SCRIPT_clustring.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SCRIPT_clustring.m). The method is explained in 
 
 [1] Chung, M.K., Huang, S.-G., Carroll, I.C., Calhoun, V.D., Goldsmith, H.H. 2023 Topological  State-Space Estimation of Functional Human Brain Networks. arXiv:2201:00087
 
@@ -12,7 +12,7 @@ For topological inference, run  [SCRIPT.m](https://github.com/laplcebeltrami/dyn
 
 [2] Moo K. Chung, Camille Garcia Ramos, Felipe Branco De Paiva, Jedidiah Mathis, Vivek Prabharakaren, Veena A. Nair, Elizabeth Meyerand, Bruce P. Hermann, Jeffery R. Binder, Aaron F. Struck, 2023 Unified Topological Inference for Brain Networks in Temporal Lobe Epilepsy Using the Wasserstein Distance, [arXiv:2302.06673](https://arxiv.org/abs/2302.06673).
 
-# Additional references
+### Additional references
 
 The Wassersteind distance between the groups of networks in explained in 
 
