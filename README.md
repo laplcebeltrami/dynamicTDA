@@ -5,7 +5,7 @@ The package computes the Wassersteind distance between the groups of networks, p
 
 ### Topological clustering
 
-For topological clustering using the Wasserstein distance, run [SIMULATION_clustring.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SIMULATION_clustring.m). It is based on the core function 
+For topological clustering using the Wasserstein distance, run [SIMULATION_cluster.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SIMULATION_cluster.m). It is based on the core function 
 [WS_cluster.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/WS_cluster.m)
 
 
