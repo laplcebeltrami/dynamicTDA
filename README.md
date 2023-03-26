@@ -5,7 +5,11 @@ The package computes the Wassersteind distance between the groups of networks, p
 
 ### Topological clustering
 
-For topological clustering using the Wasserstein distance, run [SCRIPT_clustring.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SCRIPT_clustring.m). The method is explained in 
+For topological clustering using the Wasserstein distance, run [SCRIPT_clustring.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/SCRIPT_clustring.m). It is based on the core function 
+[WS_cluster.m](https://github.com/laplcebeltrami/dynamicTDA/blob/main/WS_cluster.m)
+
+
+The method is explained in 
 
 [1] Chung, M.K., Huang, S.-G., Carroll, I.C., Calhoun, V.D., Goldsmith, H.H. 2023 Topological  State-Space Estimation of Functional Human Brain Networks. arXiv:2201:00087
 
