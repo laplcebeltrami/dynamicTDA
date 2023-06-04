@@ -22,7 +22,7 @@ For topological inference, run  [SCRIPT.m](https://github.com/laplcebeltrami/dyn
 
 ### Additional references
 
-The Wassersteind distance between the groups of networks in explained in 
+The Wassersteind distance for graphs is explained in 
 
 [3] Songdechakraiwut, T. Chung, M.K. 2022 Topological learning for brain networks, Annals of Applied Statistics arXiv: 2012.00675
 
