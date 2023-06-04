@@ -1,7 +1,6 @@
 ## Wasserstein distance between brain networks 
 
-The package computes the Wassersteind distance between the groups of networks, perform topological inference and topological clustering.  
-
+The package computes the Wasserstein distance between the collection of networks, perform topological clustering, topological inference and topological embedding  
 
 ### Topological clustering
 
