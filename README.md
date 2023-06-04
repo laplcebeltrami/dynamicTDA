@@ -10,7 +10,7 @@ For topological clustering using the Wasserstein distance, run [SIMULATION_clust
 
 The method is explained in 
 
-[1] Chung, M.K., Huang, S.-G., Carroll, I.C., Calhoun, V.D., Goldsmith, H.H. 2023 Topological  State-Space Estimation of Functional Human Brain Networks. arXiv:2201:00087
+[1] Chung, M.K., Huang, S.-G., Carroll, I.C., Calhoun, V.D., Goldsmith, H.H. 2023 Topological  State-Space Estimation of Functional Human Brain Networks. [arXiv:2201:00087](https://arxiv.org/abs/2201.00087)
 
 
 ### Topological inference
