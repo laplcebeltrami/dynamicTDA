@@ -20,7 +20,7 @@ For topological inference, run  [SCRIPT.m](https://github.com/laplcebeltrami/dyn
 
 
 
-### Additional references
+### References:
 
 The Wassersteind distance for graphs is explained in 
 
