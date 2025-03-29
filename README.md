@@ -30,6 +30,8 @@ For topological inference, run  [SCRIPT.m](https://github.com/laplcebeltrami/dyn
 
 ### References:
 
+[1] Songdechakraiwut, T. Chung, M.K. 2020 Dynamic topological data analysis for functional brain signals, IEEE International Symposium on Biomedical Imaging (ISBI) Workshop 1-4  Shorter abstract
+
 The Wassersteind distance for graphs is explained in 
 
 [3] Songdechakraiwut, T. Chung, M.K. 2022 Topological learning for brain networks, Annals of Applied Statistics arXiv: 2012.00675
