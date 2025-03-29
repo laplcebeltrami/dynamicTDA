@@ -1,6 +1,14 @@
+## What is Dynamic Topological Data Analysis (Dynamic-TDA)
+
+Dynamic topological data analysis (dynamic-TDA)  focuses on analyzing dynamically changing time series data using persistent homology. The method can be applicable to wide variety of dynamically changing data including resting-state functional magnetic resonance images (rs-fMRI) and dynamically changing correlation matrices. 
+
+
+
 ## Wasserstein distance between brain networks 
 
 The package computes the Wasserstein distance between the collection of networks, perform topological clustering, topological inference and topological embedding  
+
+
 
 ### Topological clustering
 
